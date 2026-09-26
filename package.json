@@ -1,0 +1,10 @@
+{
+  "name": "derui-agentbase",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "On-premises-ready single-tenant admin scaffold built on PostgreSQL RLS (@rls-kit).",
+  "scripts": {
+    "create": "node cli/bin/create-derui-admin.mjs"
+  }
+}

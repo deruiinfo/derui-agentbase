@@ -1,0 +1,35 @@
+{
+  "name": "admin-scaffold-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "migrate": "tsx src/migrate.ts",
+    "generate:rls": "tsx src/scripts/generate-rls.ts",
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@rls-kit/core": "file:../vendor/rls-kit-core-0.1.0.tgz",
+    "@rls-kit/fastify": "file:../vendor/rls-kit-fastify-0.1.0.tgz",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "jose": "^5.9.6",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.14",
+    "otplib": "^12.0.1",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.5.0",
+    "@types/nodemailer": "^6.4.16",
+    "@types/pg": "^8.11.6",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4"
+  }
+}

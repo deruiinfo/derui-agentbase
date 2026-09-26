@@ -1,0 +1,13 @@
+{
+  "name": "create-derui-admin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scaffold CLI: generate a single-tenant, on-prem PostgreSQL-RLS admin backend from template/.",
+  "bin": {
+    "create-derui-admin": "bin/create-derui-admin.mjs"
+  },
+  "scripts": {
+    "start": "node bin/create-derui-admin.mjs"
+  }
+}

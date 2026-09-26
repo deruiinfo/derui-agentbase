@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "derui-admin": {
+      "command": "node",
+      "args": ["tools/mcp-server.mjs"]
+    }
+  }
+}
