@@ -15,7 +15,7 @@
     "@rls-kit/core": "file:../vendor/rls-kit-core-0.1.0.tgz",
     "@rls-kit/fastify": "file:../vendor/rls-kit-fastify-0.1.0.tgz",
     "bcryptjs": "^2.4.3",
-    "dotenv": "^16.4.5",
+    "dotenv": "^18.0.3",
     "fastify": "^4.28.1",
     "jose": "^5.9.6",
     "jsonwebtoken": "^9.0.2",
