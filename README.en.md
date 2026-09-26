@@ -61,6 +61,8 @@ docs/     Architecture / Agent Kit / Roadmap / Demos
 - Agent Kit: `docs/agent-kit.md`
 - Roadmap: `docs/roadmap.md`
 - Local demo: `docs/demos.md`
+- Releasing: `docs/RELEASING.md`
+- Changelog: `CHANGELOG.md`
 
 ## License
 **Apache-2.0**. See `LICENSE` and `NOTICE`.

@@ -54,6 +54,8 @@ docs/     架构 / Agent Kit / 路线图 / Demo
 - Agent Kit：`docs/agent-kit.md`
 - 路线图：`docs/roadmap.md`
 - 本地 Demo：`docs/demos.md`
+- 发布/维护：`docs/RELEASING.md`
+- 变更日志：`CHANGELOG.md`
 
 ## 许可
 **Apache-2.0**。见 `LICENSE` 与 `NOTICE`。
