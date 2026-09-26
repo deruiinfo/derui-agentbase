@@ -3,3 +3,8 @@ dist/
 .env
 *.log
 data/
+
+# 内部资料：禁止进入公开仓（GASRACIS / 会话记忆 / 内部策略）
+sessionMemory/
+0[0-7]-*.md
+*-PRD*.md
